@@ -1,8 +1,13 @@
 # Optional Setup Instructions
 
-[Toc]
-
-<br>
+- [Optional Setup Instructions](#optional-setup-instructions)
+  - [System Info](#system-info)
+  - [Environment Setup](#environment-setup)
+    - [pyenv](#pyenv)
+    - [Poetry](#poetry)
+  - [Format](#format)
+    - [Install the tools](#install-the-tools)
+    - [Usage](#usage)
 
 For detailed instructions on how to set up your machine and use the project code in different ways, please refer to the [official documentation](https://github.com/rasbt/LLMs-from-scratch/tree/main/setup).
 
@@ -69,6 +74,8 @@ I use pyenv to manage Python versions and Poetry to manage dependencies. If you 
     ```
 
 Because we use pyenv and poetry to manage the environment, so we don't need to double check the python version and dependencies.
+
+The detailed packages and versions can be found in the [pyproject.toml](../pyproject.toml) file.
 
 ## Format
 

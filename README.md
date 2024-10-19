@@ -1,10 +1,8 @@
 # Build a Large Language Model (From Scratch)
 
----
-
-[Toc]
-
-<br>
+- [Build a Large Language Model (From Scratch)](#build-a-large-language-model-from-scratch)
+  - [Quick Start](#quick-start)
+  - [Table of Contents](#table-of-contents)
 
 This repo is my note for the book [Build a Large Language Model (From Scratch)](https://github.com/rasbt/LLMs-from-scratch/tree/main). I will follow the book to build a large language model from scratch.
 
@@ -26,3 +24,6 @@ The difference from the official repo is that in this repo I will add some of my
 | Chapter Title                    | Main Code (for Quick Access) | All Code + Supplementary |
 | -------------------------------- | ---------------------------- | ------------------------ |
 | [Setup recommendations](./setup) | -                            | -                        |
+
+> [!NOTE]
+> The setup part will be continuously updated. When new libraries need to be used, pyproject.toml and requirements.txt will be updated.
