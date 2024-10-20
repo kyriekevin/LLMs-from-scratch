@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "llms-from-scratch"
-version = "0.2.0"
+version = "0.3.0"
 description = "Implementing a ChatGPT-like LLM in PyTorch from scratch"
 authors = ["zyz <zyzkyrie@outlook.com>"]
 license = "Apache-2.0"
