@@ -21,9 +21,10 @@ The difference from the official repo is that in this repo I will add some of my
 
 ## Table of Contents
 
-| Chapter Title                    | Main Code (for Quick Access) | All Code + Supplementary |
-| -------------------------------- | ---------------------------- | ------------------------ |
-| [Setup recommendations](./setup) | -                            | -                        |
+| Chapter Title                             | Main Code (for Quick Access) | All Code + Supplementary |
+| ----------------------------------------- | ---------------------------- | ------------------------ |
+| [Setup recommendations](./setup)          | -                            | -                        |
+| Ch 1: Understanding Large Language Models | No Code                      | -                        |
 
 > [!NOTE]
 > The setup part will be continuously updated. When new libraries need to be used, pyproject.toml and requirements.txt will be updated.
