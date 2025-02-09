@@ -8,8 +8,16 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+torch = "^2.5.1"
+tiktoken = "^0.8.0"
 
 
+
+[tool.poetry.group.dev.dependencies]
+notebook = "^7.3.2"
+nbclassic = "^1.2.0"
+jupyter-console = "^6.6.3"
+jupynium = "^0.2.5"
 
 [tool.commitizen]
 name = "cz_conventional_commits"
