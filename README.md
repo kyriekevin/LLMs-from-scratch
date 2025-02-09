@@ -33,7 +33,7 @@ The difference from the official repo is that in this repo I will add some of my
 | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | ------------------------ | --------------------------- |
 | [Setup recommendations](./setup)                       | -                                                                                                  | -                        | [Note](./setup/README.md)   |
 | [Ch 1: Understanding Large Language Models](./src/Ch1) | No Code                                                                                            | -                        | [Note](./src/Ch1/README.md) |
-| [Ch 2: Working with Text Data](./src/Ch2)              | - [ch02.ipynb](./src)<br/>- [dataloader.ipynb](./src) (summary)<br/>- [exercise-solutions.ipynb]() | [Ch02](./src/Ch2)        | [Note](./src/Ch2/README.md) |
+| [Ch 2: Working with Text Data](./src/Ch2)              | - [ch02.ipynb](./src/Ch2/main-chapter-code/ch02.ipynb)<br/>- [dataloader.ipynb](./src/Ch2/main-chapter-code/dataloader.ipynb)  | [Ch02](./src/Ch2)        | [Note](./src/Ch2/README.md) |
 
 <br>
 
