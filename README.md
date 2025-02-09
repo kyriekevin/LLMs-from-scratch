@@ -15,22 +15,25 @@ The difference from the official repo is that in this repo I will add some of my
 ## Quick Start
 
 1. Clone the repo
-    ```bash
-    git clone https://github.com/kyriekevin/LLMs-from-scratch.git
-    ```
+
+   ```bash
+   git clone https://github.com/kyriekevin/LLMs-from-scratch.git
+   ```
+
 2. Setup the environment
-    The detailed environment setup can be found in the [setup](./setup)
+   The detailed environment setup can be found in the [setup](./setup)
 3. Run the code
-    You can run python code or ipynb code in the `src` folder. All chapter codes in the `src` folder are consistent with the official repo.
+   You can run python code or ipynb code in the `src` folder. All chapter codes in the `src` folder are consistent with the official repo.
 
 <br>
 
 ## Table of Contents
 
-| Chapter Title                             | Main Code (for Quick Access) | All Code + Supplementary |
-| ----------------------------------------- | ---------------------------- | ------------------------ |
-| [Setup recommendations](./setup)          | -                            | -                        |
-| Ch 1: Understanding Large Language Models | No Code                      | -                        |
+| Chapter Title                                          | Main Code (for Quick Access)                                                                       | All Code + Supplementary | Notes                       |
+| ------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | ------------------------ | --------------------------- |
+| [Setup recommendations](./setup)                       | -                                                                                                  | -                        | [Note](./setup/README.md)   |
+| [Ch 1: Understanding Large Language Models](./src/Ch1) | No Code                                                                                            | -                        | [Note](./src/Ch1/README.md) |
+| [Ch 2: Working with Text Data](./src/Ch2)              | - [ch02.ipynb](./src)<br/>- [dataloader.ipynb](./src) (summary)<br/>- [exercise-solutions.ipynb]() | [Ch02](./src/Ch2)        | [Note](./src/Ch2/README.md) |
 
 <br>
 
