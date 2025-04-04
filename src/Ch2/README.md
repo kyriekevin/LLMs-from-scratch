@@ -12,6 +12,10 @@
 [embedding](./bonus/emb) contains optional code to explain that embedding layers and fully connected layers applied to ont-hot encoded vectors are equivalent.
 [dataloader](./bonus/dataloader) contains optional code to explain the data loader more intuitively with simple numbers rather than text data.
 
+As a bonus, we can watch the official video which is author provide a code-along session.
+
+[![Link to the video](https://img.youtube.com/vi/341Rb8fJxY0/0.jpg)](https://www.youtube.com/watch?v=yAcWnfsZhzo)
+
 <br>
 
 ## Notes
