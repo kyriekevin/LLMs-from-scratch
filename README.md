@@ -27,6 +27,8 @@ The difference from the official repo is that in this repo I will add some of my
 
 <br>
 
+<br>
+
 ## Table of Contents
 
 | Chapter Title                                          | Main Code (for Quick Access)                                                                       | All Code + Supplementary | Notes                       |
