@@ -3,8 +3,7 @@
 - [Optional Setup Instructions](#optional-setup-instructions)
   - [System Info](#system-info)
   - [Environment Setup](#environment-setup)
-    - [pyenv](#pyenv)
-    - [Poetry](#poetry)
+    - [UV](#uv)
   - [Format](#format)
     - [Install the tools](#install-the-tools)
     - [Usage](#usage)
@@ -18,79 +17,46 @@ Here I will introduce the method I recommend, which is also the method I used to
 - OS: macOS Sequoia 15.0.1
 - Chip: Apple M2 Max
 - Memory: 32 GB
-- Python: 3.9.18
+- Python: 3.9
 
 > [!NOTE]
 > For the parts of subsequent chapters that require powerful computing power, A100-80G will be used to run.
 
 ## Environment Setup
 
-I use pyenv to manage Python versions and Poetry to manage dependencies. If you are not familiar with these tools, you can refer to the following instructions.
+Use uv as the python version and third-party library management tool.
 
-### pyenv
+### UV
 
-1. Install pyenv
+For Mac users, you can use homebrew to install uv, like `brew install uv`
 
-    ```bash
-    brew install pyenv
-    ```
+After installing uv, first use uv to specify the python version and create a python project.
 
-2. Install python 3.9.18
+```bash
+uv python pin <version>
+uv init
+```
 
-    ```bash
-    pyenv install 3.9.18
-    ```
+Finally, you can use uv to install the required third-party libraries. If the Python version is not downloaded, uv will automatically download it.
 
-3. Set the local python version to 3.9.18
-
-    ```bash
-    cd LLMs-from-scratch
-    pyenv local 3.9.18
-    ```
-
-### Poetry
-
-1. Install Poetry
-    If you have pipx installed, you can install Poetry with pipx. If you don't have pipx installed, you can install Poetry with the official installation script.
-
-    ```bash
-    pipx install poetry
-    ```
-
-    ```bash
-    curl -sSL https://install.python-poetry.org | python3 -
-    ```
-
-2. Set the python version to 3.9.18
-
-    ```bash
-    poetry env use 3.9.18
-    ```
-
-3. Install dependencies
-
-    ```bash
-    poetry install
-    ```
-
-Because we use pyenv and poetry to manage the environment, so we don't need to double check the python version and dependencies.
-
-The detailed packages and versions can be found in the [pyproject.toml](../pyproject.toml) file.
+```bash
+uv add <package>
+```
 
 ## Format
 
 ### Install the tools
 
-I use black and isort to format the code. You can use the following command to format the code.
+I use ruff as a code standardization tool for Python. You can use uv to install ruff globally, refer to the following command.
 
 ```bash
-pipx install black isort
+uv tool install ruff
 ```
-
-Then I use pre-commit and commitizen to manage the commit. You can use the following command to install them.
+And use pre-commit for checking before code submission, and commitizen for standardizing git commit information. You can use uv to install both two tools, refer to the following command.
 
 ```bash
-pipx install pre-commit commitizen
+uv tool install pre-commit
+uv tool install commitizen
 ```
 
 After that, you can use the following command to initialize the pre-commit.
