@@ -7,15 +7,12 @@ repos:
       - id: check-json
       - id: check-toml
       - id: check-added-large-files
-  - repo: https://github.com/pycqa/isort
-    rev: 5.13.2
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.11.2
     hooks:
-      - id: isort
-  - repo: https://github.com/psf/black
-    rev: 24.10.0
-    hooks:
-      - id: black
-      - id: black-jupyter
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
   - repo: https://github.com/abravalheri/validate-pyproject
     rev: v0.20.2
     hooks:

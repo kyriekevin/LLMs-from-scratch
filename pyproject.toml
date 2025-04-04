@@ -1,23 +1,7 @@
-[tool.poetry]
+[project]
 name = "llms-from-scratch"
 version = "0.1.0"
 description = "Implementing a ChatGPT-like LLM in PyTorch from scratch"
-authors = ["zyz <zyzkyrie@outlook.com>"]
-license = "Apache-2.0"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.9"
-
-
-
-[tool.commitizen]
-name = "cz_conventional_commits"
-tag_format = "v$version"
-version_scheme = "pep440"
-version_provider = "poetry"
-update_changelog_on_bump = true
-major_version_zero = true
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.9"
+dependencies = []
