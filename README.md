@@ -4,8 +4,6 @@
   - [Quick Start](#quick-start)
   - [Table of Contents](#table-of-contents)
 
-<br>
-
 This repo is my note for the book [Build a Large Language Model (From Scratch)](https://github.com/rasbt/LLMs-from-scratch/tree/main). I will follow the book to build a large language model from scratch.
 
 The difference from the official repo is that in this repo I will add some of my own notes and some of my own implementation methods.
