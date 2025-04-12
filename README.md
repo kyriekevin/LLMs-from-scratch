@@ -29,8 +29,9 @@ The difference from the official repo is that in this repo I will add some of my
 
 ## Table of Contents
 
-| Chapter Title                    | Main Code (for Quick Access) | All Code + Supplementary | Notes                     |
-| -------------------------------- | ---------------------------- | ------------------------ | ------------------------- |
-| [Setup recommendations](./setup) | -                            | -                        | [Note](./setup/README.md) |
+| Chapter Title                                          | Main Code (for Quick Access) | All Code + Supplementary | Notes                       |
+| ------------------------------------------------------ | ---------------------------- | ------------------------ | --------------------------- |
+| [Setup recommendations](./setup)                       | -                            | -                        | [Note](./setup/README.md)   |
+| [Ch 1: Understanding Large Language Models](./src/Ch1) | No Code                      | -                        | [Note](./src/Ch1/README.md) |
 
 <br>
