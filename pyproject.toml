@@ -5,3 +5,6 @@ description = "Implementing a ChatGPT-like LLM in PyTorch from scratch"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []
+
+[tool.ruff]
+ignore = ["E402"]
