@@ -2,6 +2,7 @@
 
 - [Build a Large Language Model (From Scratch)](#build-a-large-language-model-from-scratch)
   - [Quick Start](#quick-start)
+  - [Table of Contents](#table-of-contents)
 
 <br>
 
@@ -18,3 +19,18 @@ The difference from the official repo is that in this repo I will add some of my
    ```bash
    git clone https://github.com/kyriekevin/LLMs-from-scratch.git
    ```
+
+2. Setup the environment
+   The detailed environment setup can be found in the [setup](./setup)
+
+<br>
+
+<br>
+
+## Table of Contents
+
+| Chapter Title                    | Main Code (for Quick Access) | All Code + Supplementary | Notes                     |
+| -------------------------------- | ---------------------------- | ------------------------ | ------------------------- |
+| [Setup recommendations](./setup) | -                            | -                        | [Note](./setup/README.md) |
+
+<br>
