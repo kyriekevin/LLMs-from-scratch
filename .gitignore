@@ -1,3 +1,5 @@
 # python
 .python-version
 .ipynb_checkpoints
+uv.lock
+__pycache__
